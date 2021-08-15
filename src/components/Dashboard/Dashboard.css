@@ -1,0 +1,53 @@
+.dashboard{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      flex-direction: column;
+      margin-left: 304px;
+}
+
+.category-title{
+      font-size: 24px;
+      font-weight: 700;
+      margin-bottom: 32px;
+}
+
+.category-menu{
+      width: 1072px;
+      height: 48px;
+      margin: 32px;
+}
+
+.category-items{
+      display: flex;
+      flex-direction: row;
+}
+
+.cat-icon{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 4px 16px 4px 16px;
+      list-style: none;
+}
+
+.cat-icon > span{
+      font-size: 16px;
+      font-weight: bold;
+      margin-left: 15px;
+
+}
+
+.restaurant-list{
+      width: 1072px;
+      height: 48px;
+      margin: 32px;
+}
+
+.restaurant-title{
+      font-size: 24px;
+      font-weight: 700;
+      margin-top: 55px;
+}

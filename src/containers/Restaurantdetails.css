@@ -1,0 +1,182 @@
+.restaurant-detail-section {
+  margin: 32px 32px;
+  width: 100%;
+  color: #626264;
+}
+
+.button-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.back-button {
+  width: 500px;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 60px;
+}
+
+.cart-button {
+  display: flex;
+  justify-content: flex-end;
+  width: 500px;
+}
+
+.restaurant-menu {
+  margin-left: 20rem;
+  margin-top: 48px;
+}
+
+.restaurant-name-menu {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.restaurant-title-menu {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #182135;
+  margin-bottom: 12px;
+}
+
+.restaurant-description-menu {
+  color: #626264;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.restaurant-item-menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.restaurant-item-menu > img {
+  height: 296px;
+  width: 550px;
+  border-radius: 16px;
+}
+
+.restaurant-details-menu {
+  display: flex;
+}
+
+.restaurant-directory {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  height: 48px;
+}
+
+.restaurant-directory > span {
+  margin-left: 16px;
+  width: 245px;
+}
+
+.restaurant-timings {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.restaurant-web {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.restaurant-web > span {
+  margin-left: 16px;
+}
+
+.restaurant-timings > span {
+  margin-left: 16px;
+}
+
+.restaurant-directory-clock {
+  height: 24px;
+}
+
+.line {
+  width: 424px;
+  position: absolute;
+  border: 1px solid rgba(163, 163, 164, 0.32);
+  top: 482px;
+  left: 600px;
+}
+
+.items-class {
+  width: 640px;
+  height: 40px;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 320px;
+  margin-top: 80px;
+}
+
+.menu-item {
+  height: 40px;
+  width: 120px;
+  border-radius: 8px;
+  background-color: #503e9d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #f7fafc;
+  margin: 0px 16px;
+  border: none;
+}
+
+.menu-items {
+  margin-left: 340px;
+  margin-top: 38px;
+}
+
+.menu-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #182135;
+}
+
+.category-menu-items {
+  width: 336px;
+  margin: 16px 0px;
+}
+
+.category-menu-items > img {
+  object-fit: cover;
+  height: 176px;
+  width: 336px;
+}
+
+.item-grids {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  height: 100%;
+  width: 100%;
+}
+
+.item-name {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #182135;
+  width: 220px;
+}
+
+.item-cost {
+    margin-left: 240px;
+    color: #503E9D;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
