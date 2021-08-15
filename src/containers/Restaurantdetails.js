@@ -17,7 +17,7 @@ function Restaurantdeatils(props) {
         fetch("https://api.sheety.co/bdcbafbc1f4197dda178b9e69f6ccee9/techAlchemyWebTest1/restaurantDetails")
             .then(response => response.json())
             .then(items => { setMenu(items.restaurantDetails.filter( (item,index) => index === props.resid )) })
-    }, []);
+    }, [props.resid]);
 
     const handlebackClick = () => {
         props.handleBackClick();
