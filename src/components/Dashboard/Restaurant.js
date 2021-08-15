@@ -11,7 +11,7 @@ function Restaurant(props) {
         fetch("https://api.sheety.co/bdcbafbc1f4197dda178b9e69f6ccee9/techAlchemyWebTest1/allRestaurants")
             .then(response => response.json())
             .then(items => { setRestaurant(items.allRestaurants.filter((item) => item.restaurantCuisine.toLowerCase().includes(details.toLowerCase())))})
-    }, [])
+    })
 
     useEffect( () => {
         setDetails(props.filterItems);
